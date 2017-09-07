@@ -20,20 +20,21 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Wen day"
-  role = "Professor of macOs and iOS"
+  role = "Professor of macOS and iOS"
   organization = "The Harvard University"
-  organization_url = "sssssss"
-  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  organization_url = "http://www.harvard.edu/"
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "714541080@qq.com"
   address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  office_hours = "Workday 9:00 to 13:00 or email for appointment"
   phone = "188 8888 8888"
-  skype = "echo123"
-  telegram = "dddddd"
+
+  # skype = "echo123"
+  # telegram = "dddddd"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = "aaaaaaa"
+  # keybase = "aaaaaaa"
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -49,6 +50,7 @@ defaultContentLanguageInSubdir = false
   #     override it for a particular page in that page's preamble.
   #
   #     Example: highlight = true
+  # highlight = true
   #
   #   highlight_languages
   #     Add support for highlighting additional languages. Support for
@@ -64,6 +66,7 @@ defaultContentLanguageInSubdir = false
   #     effect.
   #
   #     Example: highlight_style = "github-gist"
+  # highlight_style = "github-gist"
   #
   #   highlight_version
   #     Choose the version of highlight.js you want. Setting this
@@ -77,7 +80,7 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["go", "lisp", "ocaml"]
   # highlight_style = "github"
   # highlight_version = "9.9.0"
 
@@ -151,43 +154,106 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Home"
+  # name = "主页"
   url = "#about"
   weight = 1
 
 [[menu.main]]
   name = "Publications"
+  # name = "文章"
   url = "#publications_selected"
   weight = 2
 
 [[menu.main]]
   name = "Posts"
+  # name = "帖子"
   url = "#posts"
   weight = 3
 
+
 [[menu.main]]
   name = "Projects"
+  # name = "项目"
   url = "#projects"
   weight = 4
 
 [[menu.main]]
   name = "Teaching"
+  # name = "技术"
   url = "#teaching"
   weight = 5
 
 [[menu.main]]
   name = "Contact"
+  # name = "联系方式"
   url = "#contact"
   weight = 6
 
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
+[[menu.main]]
+  name = "中文"
+  url = "/zh"
+  weight = 7
+
+# # Taxonomies.
+# [taxonomies]
+#   tag = "tags"
+#   category = "categories"
+#   publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
+# [languages.en]
+#   languageCode = "en-us"
+
+[[languages.zh.menu.main]]
+  name = "主页"
+  url = "#about"
+  weight = 1
+
+[[languages.zh.menu.main]]
+  name = "项目"
+  url = "#projects_selected"
+  weight = 2
+
+[[languages.zh.menu.main]]
+  name = "出版"
+  url = "#publications_selected"
+  weight = 3
+
+[[languages.zh.menu.main]]
+  name = "演讲"
+  url = "#talks"
+  weight = 4
+
+[[languages.zh.menu.main]]
+  name = "经历"
+  url = "#experience"
+  weight = 5
+
+[[languages.zh.menu.main]]
+  name = "联系"
+  url = "#contact"
+  weight = 6
+
+  # [[languages.zh.menu.main]]
+  #   name = "English"
+  #   url = "../"
+  #   weight = 7
+
 [languages.en]
   languageCode = "en-us"
+  title = "Resume - Wenli Sun"
+  name = "Wenli Sun"
+  role = "iOS Developer"
+  address = "Beijing China"
+  office_hours = "Please send an email for appointment"
+
+[languages.zh]
+  languageCode = "zh"
+  title = "简历 - 孙文礼"
+  name = "孙文礼"
+  role = "iOS 开发者"
+  address = "中国 北京"
+  office_hours = "预约会面请先邮件联系"
