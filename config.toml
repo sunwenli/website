@@ -4,6 +4,7 @@ copyright = "&copy; 2017 Wenday"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -21,14 +22,14 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Wen day"
   role = "Professor of macOS and iOS"
-  organization = "The Harvard University"
-  organization_url = "http://www.harvard.edu/"
+  organization = "RayJoy (Beijing) technology co. LTD"
+  organization_url = "http://www.rayjoy.com/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "714541080@qq.com"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Workday 9:00 to 13:00 or email for appointment"
-  phone = "188 8888 8888"
+  address = "The 9th floor, block C, zhizhen building, NO.7 zhichun road, haidian district, Beijing"
+  office_hours = "Workday 9:30 to 18:30 or email for appointment"
+  phone = "188 1057 5394"
 
   # skype = "echo123"
   # telegram = "dddddd"
@@ -38,7 +39,7 @@ defaultContentLanguageInSubdir = false
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Mon, Jan 2, 2007"
+  date_format = "Mon, Jan 2, 2006"
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -113,7 +114,7 @@ defaultContentLanguageInSubdir = false
   # Icon pack "fa" includes the following social network icons:
   #
   #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
-  #   youtube, instagram, soundcloud
+  #   youtube, instagram, soundcloud , fa-weixin
   #
   #   For email icon, use "fa" icon pack, "envelope" icon, and
   #   "mailto:your@email.com" as the link.
@@ -134,12 +135,14 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    # link = "//twitter.com/GeorgeCushen"
+    link = "//twitter.com/sunwenli1"
 
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    icon = "weixin"
+    icon_pack = "fa"
+    link = "weixin://contacts/profile/ershao4896"
+    # link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
@@ -189,16 +192,13 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
-[[menu.main]]
-  name = "中文"
-  url = "/zh"
-  weight = 7
+
 
 # # Taxonomies.
-# [taxonomies]
-#   tag = "tags"
-#   category = "categories"
-#   publication_type = "publication_types"
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
@@ -246,14 +246,14 @@ defaultContentLanguageInSubdir = false
   languageCode = "en-us"
   title = "Resume - Wenli Sun"
   name = "Wenli Sun"
-  role = "iOS Developer"
-  address = "Beijing China"
-  office_hours = "Please send an email for appointment"
+  role = "iOS & macOS Developer"
+  # address = "Beijing China"
+  # office_hours = "Please send an email for appointment"
 
 [languages.zh]
   languageCode = "zh"
-  title = "简历 - 孙文礼"
+  title = "哈哈哈"
   name = "孙文礼"
-  role = "iOS 开发者"
-  address = "中国 北京"
-  office_hours = "预约会面请先邮件联系"
+  role = "iOS & macOS 开发者"
+  # address = "中国 北京"
+  # office_hours = "预约会面请先邮件联系"
