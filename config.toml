@@ -18,7 +18,8 @@ defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
-
+[params.navigation]
+  help  = "Help"
 [params]
   name = "Wen day"
   role = "Professor of macOS and iOS"
