@@ -20,7 +20,7 @@ googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 # Get last modified date for content from Git?
@@ -56,7 +56,7 @@ enableGitInfo = false
 
   name = "Wen day"
   role = "Professor of macOS and iOS"
-  organization = "RayJoy (Beijing) technology co. LTD"
+  # organization = "RayJoy (Beijing) technology co. LTD"
   organization_url = "http://www.rayjoy.com/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -330,6 +330,7 @@ enableGitInfo = false
 [languages.en]
   languageCode = "en-us"
   title = "Just Do it"
+  organization = "RayJoy (Beijing) technology co. LTD"
   name = "Wenli Sun"
   role = "iOS & macOS Developer"
   address = "The 9th floor, block C, zhizhen building, NO.7 zhichun road, haidian district, Beijing"
@@ -339,7 +340,8 @@ enableGitInfo = false
 
 [languages.zh]
   languageCode = "zh"
-  copyright = "&copy; 2017 孙文礼"
+  organization = "雷尚科技 (北京)"
+  copyright = "&copy; 2018 孙文礼"
   title = "人未尽,杯莫停"
   name = "孙文礼"
   role = "iOS & macOS 开发者"
