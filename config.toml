@@ -16,7 +16,8 @@ paginate = 10
 disqusShortname = "aa"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+# 这里缓换成百度统计
+googleAnalytics = "af12b12cdc4566868498917b23d3333a"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
