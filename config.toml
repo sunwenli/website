@@ -4,7 +4,7 @@
 # The URL of your website.
 baseurl = "https://sunwenli.github.io/"  # End your URL with a `/` trailing slash. 以“/”结尾的斜杠结束你的URL
 title = "Tec Web"
-copyright = "&copy; 2018 Wenli Sun"
+copyright = "&copy; 2019 Wenli Sun"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -342,7 +342,7 @@ enableGitInfo = false
 [languages.zh]
   languageCode = "zh"
   organization = "雷尚科技 (北京)"
-  copyright = "&copy; 2018 孙文礼"
+  copyright = "&copy; 2019 孙文礼"
   title = "人未尽,杯莫停"
   name = "孙文礼"
   role = "iOS & macOS 开发者"
