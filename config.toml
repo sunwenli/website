@@ -161,7 +161,7 @@ enableGitInfo = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
-  custom_js  = []
+  custom_js  = ['running-time.js']
 
   # Publication types.
   #   Used to categorize publications.
