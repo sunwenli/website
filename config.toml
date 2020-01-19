@@ -4,7 +4,7 @@
 # The URL of your website.
 baseurl = "https://sunwenli.github.io/"  # End your URL with a `/` trailing slash. 以“/”结尾的斜杠结束你的URL
 title = "Tec Web"
-copyright = "&copy; 2019 Wenli Sun"
+copyright = "&copy; 2020 Wenli Sun"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -181,7 +181,7 @@ enableGitInfo = false
 
   enableGitalk = true
 
-  [params.gitalk] 
+  [params.gitalk]
     clientID = "e4b46d03f4f0f2c7c0f2" # Your client ID
     clientSecret = "705c16af65a84f4554597cc1a053fb6aded553b7" # Your client secret
     repo = "sunwenli.github.io" # The repo to store comments
